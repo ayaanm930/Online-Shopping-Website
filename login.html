@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script src="https://kit.fontawesome.com/b1fc5d647a.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="styling.css">
+	<title>Login</title>
+</head>
+<body class="login">
+	<!-- logo bar start -->
+	<div class="top">
+		<img src="images/Logo.jpg">
+		<a href="login.html" class="signin">
+			<i class="fas fa-sign-in-alt"></i>
+			Sign In / Register
+		</a>
+	</div>
+	<div class="clr"></div>
+	<!-- logo bar end -->
+
+	<!-- Navigation bar start -->
+	<div>
+        <nav>
+            <ul class="navbar" >
+                <li><a href="main.html">home</a></li>
+                <li><a href="menu.html">menu</a></li>
+                <li><a href="categories.html">categories</a></li>
+                <li><a href="#">contact</a></li>
+                <li class="cart"><a href="cart.html" class="fas fa-shopping-cart"></a></li>      
+            </ul>
+        </nav>
+    </div>
+    <!-- Navigation bar end -->
+    <br>
+    <br>
+    <div class="clr"></div>
+
+    <!-- Three Boxes To sign in -->
+	<div class="container">
+		<div class="row">
+			<!-- Box 1 if you have account already -->
+			<div class="col-sm-3" style="color: black;  border-radius: 15px;border:1px solid black;">
+			<h2>Already have an account?Log in!</h2>
+		
+
+				<form method="POST" action="main.html">
+				<label for="e-mail">E-mail</label><br>
+				<input type="text" id="email" name="email"><br>
+				<label for="pass">Password</label><br>
+				<input type="password"  id="pass" name="pass"><br>
+				<input type="submit" class="button" value="Login">
+				<input type="reset" class="button" value="Reset"><br>
+				<label for="remember">Remember me</label>
+				<input type="checkbox" id="remember" name="remember" value="rememberme">
+				<label for="forgot">Forgot Password?</label>
+				<input type="checkbox" id="forgot" name="forgot" value="forgotpw">
+				</form>
+				<br><br><br><br>
+			</div>
+		
+			<div class="col-sm-1"></div>
+
+			<!-- Box 2 For New Registrations -->
+			<div class="col-sm-4" style="color: black;  border-radius: 15px;border:1px solid black;">
+			<h2>New member?Register Now!</h2>
+				<form method="POST" action="main.html">
+				<label for="fname">First Name</label><br>
+				<input type="text" id="fname" name="fname"><br>
+				<label for="lname">Last Name</label><br>
+				<input type="text" id="lname" name="lname"><br>
+				<label for="dname">Display Name</label><br>
+				<input type="text" id="dname" name="dname"><br>
+				<label for="e-mail">E-mail</label><br>
+				<input type="text" id="e-mmail" name="e-mail"><br>
+				<label for="password">Password</label><br>
+				<input type="password" id="password" name="password"><br>
+				<label for="cpass">Confirm Password</label><br>
+				<input type="password" id="cpass" name="cpass"><br>
+				<input type="submit" class="button" value="Register">
+				<input type="reset" class="button" value="Reset"><br>
+				<label for="news">Subscribe to newsletter?</label>
+				<input type="checkbox" id="news" name="news" value="newsyes"><br>
+				</form>
+			</div>
+
+			<div class="col-sm-1"></div>
+
+			<!-- Box 3 For Signing in as Guest -->
+			<div class="col-sm-3" style="color: black;  border-radius: 15px;border:1px solid black;">
+				<h2>Want to surf as a Guest?</h2>
+				<form method="POST" action="main.html">
+				<input type="submit" class="button" value="Log in as a Guest">
+				<p></p>
+				<br><br><br><br><br><br><br><br><br><br>
+			</form>
+			</div>
+		</div>
+
+		<br>
+
+	<br>
+
+	<!-- footer start -->
+   <div class="last">
+    	<h2>Information</h2>
+    	<p>
+    		About us <br>
+    		Privacy Policy <br>
+    		Career
+    	</p>	
+    </div>
+    <div class="last">
+    	<h2>Contact Us</h2>
+    	<p>
+    		0317-5111776 <br>
+    		plsgiveusfullmarks@gmail.com <br>
+    		<br>
+    	</p>	
+    </div>
+    <div class="last">
+    	<h2>Locations</h2>
+    	<p>
+    		Downtown, F7/1, Islamabad <br>
+    		Civic Centre, Bahria Town, Rawalpindi
+    	</p>	
+    </div>
+    <div class="last">
+    	<h2>Social Media</h2>
+    	<p>
+    		<i class="fab fa-instagram"></i> Instagram <br>
+    		<i class="fab fa-facebook"></i> Facebook <br>
+    		<i class="fab fa-whatsapp"></i> WhatsApp
+    	</p>	
+    </div>
+    <!-- footer end -->
+
+</body>
+</html>

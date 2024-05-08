@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script src="https://kit.fontawesome.com/b1fc5d647a.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="styling.css">
+	<title>cart</title>
+</head>
+<body class="payment">
+	<!-- logo bar start -->
+	<div class="top">
+		<img src="images/Logo.jpg">
+		<a href="login.html" class="signin">
+			<i class="fas fa-sign-in-alt"></i>
+			Sign In / Register
+		</a>
+	</div>
+	<div class="clr"></div>
+	<!-- logo bar end -->
+
+	<!-- Navigation bar start -->
+	<div>
+        <nav>
+            <ul class="navbar">
+                <li><a href="main.html">home</a></li>
+				<li><a href="best sellers.html">best sellers</a></li>
+                 <li><a href="categories.html">categories</a></li>
+                <li><a href="#">contact</a></li>
+                <li class="cart"><a href="cart.html" class="fas fa-shopping-cart"></a></li>      
+            </ul>
+        </nav>
+    </div>
+
+    <br>
+    <br>
+    <div class="clr"></div>
+
+    <div class="container" style="color:black;">
+		<h1><i class="fas fa-shopping-cart"></i>   YOUR CART</h1>
+	</div>
+
+
+	<!-- Showing 4 boxes with item, quantity, price and total-->
+
+
+
+	<div class="container">
+		<div class="row">
+			<!-- Box 1 showing Items-->
+			<div class="col-sm-4">
+				<div class="card" style="color: black;  border-radius: 15px;border:1px black;padding : 30px;">
+					<div class="card-body">
+						<h2 class="card-title">Your Bucket</h2>
+				
+						<p>Tomatoes</p>
+						<p>Coffee</p>
+						<p>Butter</p>
+						<p>Pomegranate</p>
+				
+					</div>
+				</div>
+			</div>
+
+
+		<div class="col-sm-1"></div>
+
+		<!-- Box 2 showing Quantity-->
+		<div class="col-sm-3">
+		<div class="card" style="color:black;  border-radius: 15px;border:1px black;padding : 30px;">
+			<div class="card-body">
+				<h2 class="card-title">Quantity</h2>
+				<p>2</p>
+				<p>1</p>
+				<p>1</p>
+				<p>4</p>
+		
+
+			</div>
+		</div>
+	</div>
+
+	<div class="col-sm-1"></div>
+
+	<!-- Box 3 showing Price of each-->
+	<div class="col-sm-3">
+		<div class="card" style="color: black;  border-radius: 15px;border:1px black;padding : 30px;">
+			<div class="card-body">	
+				<h2 class="card-title">Price</h2>
+				<p>PKR 295 </p>
+				<p>PKR 470 </p>
+				<p>PKR 450 </p>
+				<p>PKR 390 </p>
+			</div>
+		</div>
+	</div>
+
+
+</div>
+</div>
+
+
+<br>
+<br>
+<br>
+
+<!-- Box 4 showing Total cost with tax-->
+<div class="container">
+	<div class="col-sm-12">
+		<div class="card" style="color: black;  border-radius: 15px ;border:1px black;padding : 75px;">
+			<div class="card-body">	
+				<br><br>
+				<p>Tax : PKR 469 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Delivery Charges : PKR 0 </p>
+				<p> Total Bill : PKR 3149 only</p>
+				<form method="POST" action="payment.html">
+				<input type="submit" class="button" value="Proceed to payment">
+				</form>
+				<br><br>
+			</div>
+		</div>
+	</div>
+</div>
+
+<br><br><br>
+<!-- footer start -->
+   <div class="last">
+    	<h2>Information</h2>
+    	<p>
+    		About us <br>
+    		Privacy Policy <br>
+    		Career
+    	</p>	
+    </div>
+    <div class="last">
+    	<h2>Contact Us</h2>
+    	<p>
+    		0317-5111776 <br>
+    		plsgiveusfullmarks@gmail.com <br>
+    		<br>
+    	</p>	
+    </div>
+    <div class="last">
+    	<h2>Locations</h2>
+    	<p>
+    		Downtown, F7/1, Islamabad <br>
+    		Civic Centre, Bahria Town, Rawalpindi
+    	</p>	
+    </div>
+    <div class="last">
+    	<h2>Social Media</h2>
+    	<p>
+    		<i class="fab fa-instagram"></i> Instagram <br>
+    		<i class="fab fa-facebook"></i> Facebook <br>
+    		<i class="fab fa-whatsapp"></i> WhatsApp
+    	</p>	
+    </div>
+    <!-- footer end -->
+</body>
+</html>
